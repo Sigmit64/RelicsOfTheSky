@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "relicsofthesky:blocks/liquid_filterator",
+        "front": "relicsofthesky:blocks/liquid_filterator_front",
+        "side": "relicsofthesky:blocks/liquid_filterator"
+    }
+}

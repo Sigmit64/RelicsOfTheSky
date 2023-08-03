@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults":
+    {
+        
+        "model": "relicsofthesky:lava_generator"
+        
+    },
+    "variants": {
+        "normal": [{}], "inventory": [{}],
+        "facing": {
+        	"west" : {"y" :270},
+        	"north" : {},
+        	"east" : {"y" :90},
+        	"south" : {"y" :180}
+        }
+    }
+}

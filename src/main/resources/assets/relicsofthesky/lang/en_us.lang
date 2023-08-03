@@ -1,0 +1,28 @@
+item.relicsofthesky.grasser.name=Grasser
+item.relicsofthesky.wand_of_the_nature.name=Wand of the Nature
+item.relicsofthesky.lighter.name=Lighter
+item.relicsofthesky.relic_chest.name=Relic Chest
+item.relicsofthesky.mesh.0.name=Magnetic Filter
+item.relicsofthesky.mesh.1.name=Steel Filter
+item.relicsofthesky.ingot.0.name=Normal ingot
+item.relicsofthesky.ingot.1.name=Copper ingot
+item.relicsofthesky.ingot.2.name=Silver ingot
+item.relicsofthesky.ingot.3.name=Tin ingot
+item.relicsofthesky.ingot.4.name=Lead ingot
+item.relicsofthesky.ingot.5.name=Steel ingot
+item.relicsofthesky.catalyst.0.name=Void Catalyst
+item.relicsofthesky.catalyst.1.name=Metal Catalyst
+item.relicsofthesky.reverse_wrench.name=Reverse Wrench
+item.relicsofthesky.brusher.name=Brusher
+item.relicsofthesky.rake.name=Rake
+item.relicsofthesky.steel_hammer.name=Steel Hammer
+
+tile.relicsofthesky.metal_purifier.name=Metal Purifier
+tile.relicsofthesky.water_generator.name=Water Generator
+tile.relicsofthesky.lava_generator.name=Lava Generator
+tile.relicsofthesky.liquid_filterator.name=Liquid Filterator
+tile.relicsofthesky.sand_of_time.name=Sand of Time
+tile.relicsofthesky.sand_of_time_compressed.name=Compressed Sand of Time
+tile.relicsofthesky.sand_of_infinity.name=Sand of Infinity
+
+text.relicsofthesky.choose_your_reward=Choose your reward

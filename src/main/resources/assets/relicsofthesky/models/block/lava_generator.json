@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "relicsofthesky:blocks/lava_generator",
+        "front": "relicsofthesky:blocks/lava_generator",
+        "side": "relicsofthesky:blocks/lava_generator"
+    }
+}
