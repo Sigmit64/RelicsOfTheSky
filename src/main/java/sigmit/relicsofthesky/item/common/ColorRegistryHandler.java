@@ -15,5 +15,7 @@ public class ColorRegistryHandler {
 		//RelicsOfTheSky.logger.info("color!!!!!");
 		Item itemIngot = ItemRegistryHandler.ITEM_INGOT;
 		event.getItemColors().registerItemColorHandler(new ItemColor(), itemIngot);
+		Item itemNugget = ItemRegistryHandler.ITEM_NUGGET;
+		event.getItemColors().registerItemColorHandler(new ItemColor(), itemNugget);
 	}
 }

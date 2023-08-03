@@ -36,11 +36,14 @@ public class RecipeLiquidFilterator {
 	public static void register() {
 		addRecipe(FluidRegistry.LAVA, 1000, ItemStack.EMPTY, 5,
 				new ItemStackChance(Items.IRON_NUGGET,1, 30),
+				new ItemStackChance(new ItemStack(ItemRegistryHandler.ITEM_NUGGET,1,4),40),
 				new ItemStackChance(Items.GOLD_NUGGET,1, 5)
+				
 				);
 		addRecipe(FluidRegistry.LAVA, 1000, new ItemStack(ItemRegistryHandler.ITEM_MESH,1,0), 5,
 				new ItemStackChance(Items.IRON_NUGGET,1, 70),
 				new ItemStackChance(Items.IRON_NUGGET,1, 20),
+				new ItemStackChance(new ItemStack(ItemRegistryHandler.ITEM_NUGGET,1,4),40),
 				new ItemStackChance(Items.GOLD_NUGGET,1, 5)
 				);
 	}

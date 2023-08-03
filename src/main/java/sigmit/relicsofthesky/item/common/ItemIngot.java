@@ -14,7 +14,7 @@ import sigmit.relicsofthesky.network.RelicsGuiHandler;
 public class ItemIngot extends ItemMeta{
 
 	public ItemIngot() {
-		super("ingot",5);
+		super("ingot",6,false);
 		
 	}
 

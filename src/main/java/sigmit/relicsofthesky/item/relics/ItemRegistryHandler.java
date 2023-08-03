@@ -15,6 +15,8 @@ import sigmit.relicsofthesky.block.BlockRegistryHandler;
 import sigmit.relicsofthesky.item.common.ItemCatalyst;
 import sigmit.relicsofthesky.item.common.ItemIngot;
 import sigmit.relicsofthesky.item.common.ItemMesh;
+import sigmit.relicsofthesky.item.common.ItemMeta;
+import sigmit.relicsofthesky.item.common.ItemNugget;
 import sigmit.relicsofthesky.item.common.ItemRelicChest;
 import sigmit.relicsofthesky.item.relics.bottles.BottledNether;
 
@@ -33,6 +35,7 @@ public class ItemRegistryHandler {
 	public static final ItemIngot ITEM_INGOT = new ItemIngot();
 	public static final ItemCatalyst ITEM_CATALYST = new ItemCatalyst();
 	public static final ItemMesh ITEM_MESH = new ItemMesh();
+	public static final ItemNugget ITEM_NUGGET=new ItemNugget();
 	public static final ItemRelicChest ITEM_RELIC_CHEST = new ItemRelicChest();
 	
 	public static final ItemBlock ITEM_MERGER = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_MERGER));
@@ -70,23 +73,33 @@ public class ItemRegistryHandler {
 			ITEM_SAND_OF_INFINITY,
 			ITEM_LIQUID_FILTERATOR,
 			ITEM_WATER_GENERATOR,
-			ITEM_LAVA_GENERATOR
+			ITEM_LAVA_GENERATOR,
+			
+			ITEM_INGOT,
+			ITEM_CATALYST,
+			ITEM_MESH,
+			ITEM_NUGGET
 			
 		);
-		registerModel(ITEM_INGOT,0);
-		registerModel(ITEM_INGOT,1);
-		registerModel(ITEM_INGOT,2);
-		registerModel(ITEM_INGOT,3);
-		registerModel(ITEM_INGOT,4);
-		registerModel(ITEM_INGOT,5);
-		registerModelV(ITEM_MESH,0);
-		registerModelV(ITEM_MESH,1);
-		registerModelV(ITEM_CATALYST,0);
-		registerModelV(ITEM_CATALYST,1);
+		
 	}
 	public static void regitserModelAll(Item... items) {
 		for(Item item:items) {
-			registerModel(item);
+			if(item instanceof ItemMeta) {
+				if(((ItemMeta) item).getHasModel()) {
+					for(int i=0;i<((ItemMeta) item).getCount();i++) {
+						registerModelV(item, i);
+					}
+				}else {
+					for(int i=0;i<((ItemMeta) item).getCount();i++) {
+						registerModel(item, i);
+					}
+				}
+				
+			}else {
+				registerModel(item);
+			}
+			
 		}
 	}
 	
@@ -131,7 +144,8 @@ public class ItemRegistryHandler {
 			
 			ITEM_INGOT,
 			ITEM_CATALYST,
-			ITEM_MESH
+			ITEM_MESH,
+			ITEM_NUGGET
 		);
 	}
 }

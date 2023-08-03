@@ -1,0 +1,12 @@
+{
+    "type": "forge:ore_shapeless",
+    "group": "relicsofthesky:materials",
+    "result": { 
+        "item": "relicsofthesky:nugget" ,
+        "data": 4,
+        "count": 9
+    },
+    "ingredients": [
+        { "type": "forge:ore_dict", "ore": "ingotLead" }
+    ]
+}

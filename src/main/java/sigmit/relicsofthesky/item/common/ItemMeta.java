@@ -6,10 +6,20 @@ import net.minecraft.util.NonNullList;
 
 public class ItemMeta extends ItemBase{
 	private int count=0;
-	public ItemMeta(String name,int count) {
+	private boolean hasModel=false;
+	public ItemMeta(String name,int count,boolean hasModel) {
 		super(name);
 		this.hasSubtypes=true;
 		this.count=count;
+		this.hasModel=hasModel;
+	}
+	
+	public int getCount() {
+		return this.count;
+	}
+	
+	public boolean getHasModel() {
+		return this.hasModel;
 	}
 
 	@Override

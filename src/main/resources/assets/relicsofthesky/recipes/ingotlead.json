@@ -1,0 +1,17 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "relicsofthesky:materials",
+    "result": { 
+        "item": "relicsofthesky:ingot" ,
+        "data": 4
+    },
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": { "type": "forge:ore_dict", "ore": "nuggetLead" }
+        
+    }
+}
