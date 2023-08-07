@@ -19,6 +19,7 @@ import sigmit.relicsofthesky.item.relics.ItemUtils;
 import sigmit.relicsofthesky.item.relics.ItemUtils.ItemStackChance;
 
 public class RecipeLiquidFilterator {
+	
 	public static class RLFInput{
 		public FluidStack stack;
 		public ItemStack mesh;

@@ -36,6 +36,7 @@ public class ItemRegistryHandler {
 	public static final ItemCatalyst ITEM_CATALYST = new ItemCatalyst();
 	public static final ItemMesh ITEM_MESH = new ItemMesh();
 	public static final ItemNugget ITEM_NUGGET=new ItemNugget();
+	public static final ItemMagicCookie ITEM_MAGIC_COOKIE=new ItemMagicCookie();
 	public static final ItemRelicChest ITEM_RELIC_CHEST = new ItemRelicChest();
 	
 	public static final ItemBlock ITEM_MERGER = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_MERGER));
@@ -78,7 +79,8 @@ public class ItemRegistryHandler {
 			ITEM_INGOT,
 			ITEM_CATALYST,
 			ITEM_MESH,
-			ITEM_NUGGET
+			ITEM_NUGGET,
+			ITEM_MAGIC_COOKIE
 			
 		);
 		
@@ -145,7 +147,8 @@ public class ItemRegistryHandler {
 			ITEM_INGOT,
 			ITEM_CATALYST,
 			ITEM_MESH,
-			ITEM_NUGGET
+			ITEM_NUGGET,
+			ITEM_MAGIC_COOKIE
 		);
 	}
 }

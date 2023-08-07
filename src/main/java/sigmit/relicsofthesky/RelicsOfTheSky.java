@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import sigmit.relicsofthesky.capability.CapabilityRegistryHandler;
 import sigmit.relicsofthesky.entity.EntityBottledNether;
 import sigmit.relicsofthesky.fluid.FluidRegistryHandler;
 import sigmit.relicsofthesky.item.common.RelicsList;
@@ -42,6 +43,7 @@ public class RelicsOfTheSky
     	logger = event.getModLog();
     	NetworkRegistryHandler.register();
         RecipeManager.registerRecipes();
+        CapabilityRegistryHandler.register();
         //FluidRegistryHandler.register();
     }
     

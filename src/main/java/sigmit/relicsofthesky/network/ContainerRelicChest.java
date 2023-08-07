@@ -37,10 +37,27 @@ public class ContainerRelicChest extends Container{
 			items.add(i);
 		}
 		
-		//this.item[0]=relics.;this.item[1]=y;this.item[2]=z;
-		this.addSlotToContainer(new Slot(ib,0,80,32));
-		this.addSlotToContainer(new Slot(ib,1,134,59));
-		this.addSlotToContainer(new Slot(ib,2,26,59));
+		switch(y) {
+		case 3:
+			this.addSlotToContainer(new Slot(ib,0,26,59));
+			this.addSlotToContainer(new Slot(ib,1,80,59));
+			this.addSlotToContainer(new Slot(ib,2,134,59));
+			break;
+		case 4:
+			this.addSlotToContainer(new Slot(ib,0,26,59));
+			this.addSlotToContainer(new Slot(ib,1,53,32));
+			this.addSlotToContainer(new Slot(ib,2,107,32));
+			this.addSlotToContainer(new Slot(ib,3,134,59));
+			break;
+		case 5:
+			this.addSlotToContainer(new Slot(ib,0,26,59));
+			this.addSlotToContainer(new Slot(ib,1,53,32));
+			this.addSlotToContainer(new Slot(ib,2,80,59));
+			this.addSlotToContainer(new Slot(ib,3,107,32));
+			this.addSlotToContainer(new Slot(ib,4,134,59));
+			break;
+		}
+		
 		this.player=player;
 		this.world=worldIn;
 	}

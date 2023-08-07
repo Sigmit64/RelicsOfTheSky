@@ -22,6 +22,7 @@ item.relicsofthesky.reverse_wrench.name=反转扳手
 item.relicsofthesky.brusher.name=刷子
 item.relicsofthesky.rake.name=耙子
 item.relicsofthesky.steel_hammer.name=锻钢锤
+item.relicsofthesky.magic_cookie.name=魔法曲奇
 
 tile.relicsofthesky.metal_purifier.name=金属转化桌
 tile.relicsofthesky.water_generator.name=无尽之泉
@@ -32,3 +33,5 @@ tile.relicsofthesky.sand_of_time_compressed.name=压缩时之沙
 tile.relicsofthesky.sand_of_infinity.name=无尽之沙
 
 text.relicsofthesky.choose_your_reward=选择你的奖励！
+text.relicsofthesky.magic_cookie.used=你已经使用过魔法曲奇了！
+text.relicsofthesky.magic_cookie.on_use=你吃下了魔法曲奇...每个遗物箱中的遗物数量上升了！
