@@ -27,8 +27,7 @@ public class CapabilityRegistryHandler {
 		if(event.getObject() instanceof EntityPlayer) {
 			PlayerItemUsedProvider provider=new PlayerItemUsedProvider();
 			event.addCapability(new ResourceLocation(RelicsOfTheSky.MODID+":player_item_used"), provider);
-			RelicsOfTheSky.logger.info("Capability attached AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-		}
+				}
 	}
 	
 	@SubscribeEvent
@@ -36,8 +35,7 @@ public class CapabilityRegistryHandler {
 		PlayerItemUsed instancePlayerItemUsed =event.getEntityPlayer().getCapability(CapabilityRegistryHandler.PLAYER_ITEM_USED, null);
 		PlayerItemUsed originalItemUsed=event.getOriginal().getCapability(CapabilityRegistryHandler.PLAYER_ITEM_USED, null);
 		instancePlayerItemUsed.copy(originalItemUsed);
-		RelicsOfTheSky.logger.info("Capability copied AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-	}
+			}
 	
 	
 	public static void register() {
@@ -59,6 +57,5 @@ public class CapabilityRegistryHandler {
 			
 		},
 				PlayerItemUsed::new);
-		RelicsOfTheSky.logger.info("Capability registered AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-	}
+			}
 }

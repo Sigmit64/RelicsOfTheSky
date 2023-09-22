@@ -23,7 +23,7 @@ import sigmit.relicsofthesky.tileentity.TileEntityWaterGenerator;
 
 @EventBusSubscriber
 public class BlockRegistryHandler {
-	public static final BlockMerger BLOCK_MERGER = new BlockMerger();
+	//public static final BlockMerger BLOCK_MERGER = new BlockMerger();
 	public static final BlockSandOfTime BLOCK_SAND_OF_TIME = new BlockSandOfTime();
 	public static final BlockSandOfTimeCompressed BLOCK_SAND_OF_TIME_COMPRESSED = new BlockSandOfTimeCompressed();
 	public static final BlockSandOfInfinity BLOCK_SAND_OF_INFINITY = new BlockSandOfInfinity();
@@ -38,7 +38,7 @@ public class BlockRegistryHandler {
 		
 		IForgeRegistry<Block> registry=event.getRegistry();
 		registry.registerAll(
-			BLOCK_MERGER,
+			//BLOCK_MERGER,
 			BLOCK_METAL_PURIFIER,
 			BLOCK_SAND_OF_TIME,
 			BLOCK_SAND_OF_TIME_COMPRESSED,

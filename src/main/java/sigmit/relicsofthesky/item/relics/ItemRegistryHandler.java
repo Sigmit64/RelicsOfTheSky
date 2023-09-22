@@ -39,7 +39,7 @@ public class ItemRegistryHandler {
 	public static final ItemMagicCookie ITEM_MAGIC_COOKIE=new ItemMagicCookie();
 	public static final ItemRelicChest ITEM_RELIC_CHEST = new ItemRelicChest();
 	
-	public static final ItemBlock ITEM_MERGER = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_MERGER));
+	//public static final ItemBlock ITEM_MERGER = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_MERGER));
 	public static final ItemBlock ITEM_METAL_PURIFIER = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_METAL_PURIFIER));
 	public static final ItemBlock ITEM_SAND_OF_TIME = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_SAND_OF_TIME));
 	public static final ItemBlock ITEM_SAND_OF_TIME_COMPRESSED = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_SAND_OF_TIME_COMPRESSED));
@@ -69,7 +69,7 @@ public class ItemRegistryHandler {
 			ITEM_RAKE,
 			ITEM_BOTTLED_NETHER,
 			
-			ITEM_MERGER,
+			//ITEM_MERGER,
 			ITEM_METAL_PURIFIER,
 			ITEM_SAND_OF_TIME,
 			ITEM_SAND_OF_TIME_COMPRESSED,
@@ -139,7 +139,7 @@ public class ItemRegistryHandler {
 			ITEM_RAKE,
 			ITEM_BOTTLED_NETHER,
 			
-			ITEM_MERGER,
+			//ITEM_MERGER,
 			ITEM_METAL_PURIFIER,
 			ITEM_SAND_OF_TIME,
 			ITEM_SAND_OF_TIME_COMPRESSED,

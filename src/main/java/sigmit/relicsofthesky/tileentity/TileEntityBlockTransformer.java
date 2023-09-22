@@ -28,7 +28,7 @@ public abstract class TileEntityBlockTransformer extends TileEntity implements I
 			tick+=1;
 			return;
 		}
-		RelicsOfTheSky.logger.info("Triggered");
+		//RelicsOfTheSky.logger.info("Triggered");
 		tick=0;
 		IBlockState block=world.getBlockState(this.pos.up());
 		if(block==null || block.getBlock().equals(Blocks.AIR)) {
@@ -41,7 +41,7 @@ public abstract class TileEntityBlockTransformer extends TileEntity implements I
 			}
 			return;
 		}
-		RelicsOfTheSky.logger.info(block.getBlock().getLocalizedName());
+		
 		
 		BlockTransformerMap map=getBlockTransformerMap();
 		if(!block.equals(map.getBlock(block))) {

@@ -69,7 +69,7 @@ public class RelicsList {
 			result+=(a*multi);
 			multi*=relicCount;
 		}
-		RelicsOfTheSky.logger.info("packed "+set.toString() + " to integer " + result);
+		
 		return result;
 	}
 	
@@ -79,7 +79,7 @@ public class RelicsList {
 			set.add(pack%relicCount);
 			pack/=relicCount;
 		}
-		RelicsOfTheSky.logger.info("unpacked "+pack+" to set "+set.toString());
+		
 		return set;
 	}
 	
@@ -89,7 +89,7 @@ public class RelicsList {
 		while(l.size()<count) {
 			l.add(random.nextInt(relicCount));
 		}
-		RelicsOfTheSky.logger.info("generated integers "+l.toString());
+		
 		return l;
 	}
 }

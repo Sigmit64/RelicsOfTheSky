@@ -1,6 +1,9 @@
 package sigmit.relicsofthesky.item.relics;
 
+import java.util.List;
+
 import net.minecraft.client.resources.I18n;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
@@ -34,9 +37,7 @@ public class ItemMagicCookie extends ItemFood{
 	protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
 		if(!worldIn.isRemote) {
 			PlayerItemUsed used=player.getCapability(CapabilityRegistryHandler.PLAYER_ITEM_USED, null);
-			if(used==null) {
-				RelicsOfTheSky.logger.info("Capability is null AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-			}
+			
 			if(used.getItemUsed(PlayerItemUsed.MAGIC_COOKIE_ID)) {
 				player.sendMessage(new TextComponentString(I18n.format("text.relicsofthesky.magic_cookie.used")));
 			} else {
@@ -48,6 +49,10 @@ public class ItemMagicCookie extends ItemFood{
 		
 		super.onFoodEaten(stack, worldIn, player);
 	}
-	
+	@Override
+	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+		ItemUtils.addInfo(stack, worldIn, tooltip, flagIn, this.getUnlocalizedName());
+		super.addInformation(stack, worldIn, tooltip, flagIn);
+	}
 	
 }

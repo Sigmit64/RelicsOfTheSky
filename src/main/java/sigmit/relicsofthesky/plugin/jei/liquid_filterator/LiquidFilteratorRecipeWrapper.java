@@ -29,9 +29,7 @@ public class LiquidFilteratorRecipeWrapper implements IRecipeWrapper{
 	public LiquidFilteratorRecipeWrapper(FluidStack fluid,ItemStack input, List<ItemStackChance> output) {
 		//RelicsOfTheSky.logger.info(fluid.getLocalizedName());
 		//RelicsOfTheSky.logger.info(input.getDisplayName());
-		for(ItemStackChance isc:output) {
-			RelicsOfTheSky.logger.info(isc.stack);
-		}
+		
 		
 		if(input.isEmpty()) {
 			this.inputMesh=new ItemStack(Blocks.BARRIER);

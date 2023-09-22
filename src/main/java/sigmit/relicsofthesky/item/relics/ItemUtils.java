@@ -4,11 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.client.resources.I18n;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.world.World;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 import scala.annotation.meta.companionClass;
+import sigmit.relicsofthesky.RelicsOfTheSky;
 
 public class ItemUtils {
 	
@@ -20,6 +25,31 @@ public class ItemUtils {
 	
 	public static boolean getChance(int num, int max) {
 		return num>rand.nextInt(max);
+	}
+	
+	public static void addInfo(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn, String name) {
+		String text=I18n.format("tooltip.relicsofthesky."+name);
+		
+		if(!text.startsWith("tooltip")) {
+			
+
+			String[] addList=text.split("~");
+			
+			for(int i=0;i<addList.length;i++) {
+				
+				String t=addList[i];
+				
+				if(t.startsWith("@")) {
+					tooltip.add(TextFormatting.AQUA + t.substring(1));
+				}else {
+					tooltip.add(TextFormatting.YELLOW + t);
+				}
+				
+			}
+			
+			
+		}
+		//tooltip.add(TextFormatting.RED+ text);
 	}
 	
 	public static class ItemStackChance{

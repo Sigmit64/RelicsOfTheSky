@@ -17,9 +17,9 @@ import sigmit.relicsofthesky.capability.PlayerItemUsed;
 import sigmit.relicsofthesky.capability.PlayerItemUsedProvider;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 
-@EventBusSubscriber
+
 public class EventHandler {
-	@SubscribeEvent
+	
 	public static void onPlayerJoin(EntityJoinWorldEvent event) {
 		Entity entity=event.getEntity();
 		if(entity instanceof EntityPlayer) {
