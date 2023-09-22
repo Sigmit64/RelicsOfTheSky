@@ -3,6 +3,7 @@ package sigmit.relicsofthesky.network;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;
+import sigmit.relicsofthesky.client.network.GuiEnergyStorage;
 import sigmit.relicsofthesky.client.network.GuiLiquidFilterator;
 import sigmit.relicsofthesky.client.network.GuiMetalPurifier;
 import sigmit.relicsofthesky.client.network.GuiRelicChest;
@@ -12,6 +13,7 @@ public class RelicsGuiHandler implements IGuiHandler{
 	public static final int METAL_PURIFIER = 1;
 	public static final int RELIC_CHEST = 2;
 	public static final int LIQUID_FILTERATOR = 3;
+	public static final int ENERGY_STORAGE = 4;
 	@Override
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
 		// TODO Auto-generated method stub
@@ -23,6 +25,9 @@ public class RelicsGuiHandler implements IGuiHandler{
 		}
 		if(ID==LIQUID_FILTERATOR) {
 			return new ContainerLiquidFilterator(player, world,x,y,z);
+		}
+		if(ID==ENERGY_STORAGE) {
+			return new ContainerEnergyStorage(player, world,x,y,z);
 		}
 		return null;
 	}
@@ -38,6 +43,9 @@ public class RelicsGuiHandler implements IGuiHandler{
 		}
 		if(ID==LIQUID_FILTERATOR) {
 			return new GuiLiquidFilterator(player, world,x,y,z);
+		}
+		if(ID==ENERGY_STORAGE) {
+			return new GuiEnergyStorage(player, world,x,y,z);
 		}
 		return null;
 	}

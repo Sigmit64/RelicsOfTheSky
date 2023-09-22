@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "relicsofthesky:blocks/energy_storage_side",
+        "down": "relicsofthesky:blocks/energy_storage_bottom",
+        "up": "relicsofthesky:blocks/energy_storage_top",
+        "north": "relicsofthesky:blocks/energy_storage_side",
+        "east": "relicsofthesky:blocks/energy_storage_side",
+        "south": "relicsofthesky:blocks/energy_storage_side",
+        "west": "relicsofthesky:blocks/energy_storage_side"
+    }
+}

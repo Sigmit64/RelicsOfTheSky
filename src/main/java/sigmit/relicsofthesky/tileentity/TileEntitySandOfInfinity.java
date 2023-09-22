@@ -3,9 +3,13 @@ package sigmit.relicsofthesky.tileentity;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.capabilities.ICapabilityProvider;
+import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.block.BlockRegistryHandler;
 
-public class TileEntitySandOfInfinity extends TileEntitySandOfTime{
+public class TileEntitySandOfInfinity extends TileEntityItemPassiveGenerator{
+	
+	public final static String ID = RelicsOfTheSky.MODID + ":sand_of_infinity";
 	
 	@Override
 	public int getTick() {

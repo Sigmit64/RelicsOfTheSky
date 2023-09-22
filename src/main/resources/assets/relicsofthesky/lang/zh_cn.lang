@@ -31,6 +31,8 @@ tile.relicsofthesky.liquid_filterator.name=流体过滤器
 tile.relicsofthesky.sand_of_time.name=时之沙
 tile.relicsofthesky.sand_of_time_compressed.name=压缩时之沙
 tile.relicsofthesky.sand_of_infinity.name=无尽之沙
+tile.relicsofthesky.void_cornerstone=虚空基石
+tile.relicsofthesky.energy_storage=红石蓄电池
 
 text.relicsofthesky.choose_your_reward=选择你的奖励！
 text.relicsofthesky.magic_cookie.used=你已经使用过魔法曲奇了！

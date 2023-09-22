@@ -47,6 +47,8 @@ public class ItemRegistryHandler {
 	public static final ItemBlock ITEM_LIQUID_FILTERATOR = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_LIQUID_FILTERATOR));
 	public static final ItemBlock ITEM_WATER_GENERATOR = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_WATER_GENERATOR));
 	public static final ItemBlock ITEM_LAVA_GENERATOR = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_LAVA_GENERATOR));
+	public static final ItemBlock ITEM_VOID_CORNERSTONE = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_VOID_CORNERSTONE));
+	public static final ItemBlock ITEM_ENERGY_STORAGE = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_ENERGY_STORAGE));
 	
 	private static ItemBlock withRegistryName(ItemBlock item) {
 		item.setRegistryName(item.getBlock().getRegistryName());
@@ -75,6 +77,8 @@ public class ItemRegistryHandler {
 			ITEM_LIQUID_FILTERATOR,
 			ITEM_WATER_GENERATOR,
 			ITEM_LAVA_GENERATOR,
+			ITEM_VOID_CORNERSTONE,
+			ITEM_ENERGY_STORAGE,
 			
 			ITEM_INGOT,
 			ITEM_CATALYST,
@@ -143,6 +147,8 @@ public class ItemRegistryHandler {
 			ITEM_LIQUID_FILTERATOR,
 			ITEM_WATER_GENERATOR,
 			ITEM_LAVA_GENERATOR,
+			ITEM_VOID_CORNERSTONE,
+			ITEM_ENERGY_STORAGE,
 			
 			ITEM_INGOT,
 			ITEM_CATALYST,

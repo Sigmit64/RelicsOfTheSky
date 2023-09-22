@@ -3,12 +3,15 @@ package sigmit.relicsofthesky.tileentity;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import sigmit.relicsofthesky.RelicsOfTheSky;
 
-public class TileEntitySandOfTimeCompressed extends TileEntitySandOfTime{
+public class TileEntitySandOfTimeCompressed extends TileEntityItemPassiveGenerator{
+	
+	public final static String ID = RelicsOfTheSky.MODID + ":sand_of_time_compressed";
 	
 	@Override
 	public int getTick() {
-		return 2;
+		return 20;
 	}
 	
 	@Override

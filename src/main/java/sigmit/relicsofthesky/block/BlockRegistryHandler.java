@@ -11,12 +11,14 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 import sigmit.relicsofthesky.fluid.FluidRegistryHandler;
+import sigmit.relicsofthesky.tileentity.TileEntityEnergyStorage;
 import sigmit.relicsofthesky.tileentity.TileEntityLavaGenerator;
 import sigmit.relicsofthesky.tileentity.TileEntityLiquidFilterator;
 import sigmit.relicsofthesky.tileentity.TileEntityMetalPurifier;
 import sigmit.relicsofthesky.tileentity.TileEntitySandOfInfinity;
 import sigmit.relicsofthesky.tileentity.TileEntitySandOfTime;
 import sigmit.relicsofthesky.tileentity.TileEntitySandOfTimeCompressed;
+import sigmit.relicsofthesky.tileentity.TileEntityVoidCornerstone;
 import sigmit.relicsofthesky.tileentity.TileEntityWaterGenerator;
 
 @EventBusSubscriber
@@ -29,6 +31,8 @@ public class BlockRegistryHandler {
 	public static final BlockLiquidFilterator BLOCK_LIQUID_FILTERATOR = new BlockLiquidFilterator();
 	public static final BlockWaterGenerator BLOCK_WATER_GENERATOR = new BlockWaterGenerator();
 	public static final BlockLavaGenerator BLOCK_LAVA_GENERATOR = new BlockLavaGenerator();
+	public static final BlockVoidCornerstone BLOCK_VOID_CORNERSTONE = new BlockVoidCornerstone();
+	public static final BlockEnergyStorage BLOCK_ENERGY_STORAGE = new BlockEnergyStorage();
 	@SubscribeEvent
 	public static void onRegistry(Register<Block> event) {
 		
@@ -41,7 +45,9 @@ public class BlockRegistryHandler {
 			BLOCK_SAND_OF_INFINITY,
 			BLOCK_LIQUID_FILTERATOR,
 			BLOCK_WATER_GENERATOR,
-			BLOCK_LAVA_GENERATOR
+			BLOCK_LAVA_GENERATOR,
+			BLOCK_VOID_CORNERSTONE,
+			BLOCK_ENERGY_STORAGE
 		);
 		TileEntity.register(TileEntityMetalPurifier.ID, TileEntityMetalPurifier.class);
 		TileEntity.register(TileEntitySandOfTime.ID, TileEntitySandOfTime.class);
@@ -50,5 +56,7 @@ public class BlockRegistryHandler {
 		TileEntity.register(TileEntityLiquidFilterator.ID, TileEntityLiquidFilterator.class);
 		TileEntity.register(TileEntityWaterGenerator.ID, TileEntityWaterGenerator.class);
 		TileEntity.register(TileEntityLavaGenerator.ID, TileEntityLavaGenerator.class);
+		TileEntity.register(TileEntityVoidCornerstone.ID, TileEntityVoidCornerstone.class);
+		TileEntity.register(TileEntityEnergyStorage.ID, TileEntityEnergyStorage.class);
 	}
 }

@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "relicsofthesky:blocks/water_generator",
+        "front": "relicsofthesky:blocks/water_generator",
+        "side": "relicsofthesky:blocks/water_generator"
+    }
+}

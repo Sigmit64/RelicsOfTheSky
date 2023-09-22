@@ -4,6 +4,7 @@ package sigmit.relicsofthesky.tileentity;
 
 import java.util.List;
 
+import net.minecraft.block.BlockCommandBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
