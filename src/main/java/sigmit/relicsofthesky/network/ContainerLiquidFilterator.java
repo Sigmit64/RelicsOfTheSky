@@ -2,7 +2,6 @@ package sigmit.relicsofthesky.network;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.inventory.ClickType;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IContainerListener;
 import net.minecraft.inventory.Slot;
@@ -14,7 +13,6 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidTank;
-import net.minecraftforge.fluids.FluidUtil;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.fluids.capability.IFluidHandler;
 import net.minecraftforge.fml.relauncher.Side;
@@ -24,7 +22,6 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 import sigmit.relicsofthesky.fluid.FluidMap;
 import sigmit.relicsofthesky.tileentity.TileEntityLiquidFilterator;
-import sigmit.relicsofthesky.tileentity.TileEntityMetalPurifier;
 
 public class ContainerLiquidFilterator extends Container{
 	

@@ -1,7 +1,5 @@
 package sigmit.relicsofthesky.tileentity;
 
-import java.util.Map;
-
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import sigmit.relicsofthesky.RelicsOfTheSky;

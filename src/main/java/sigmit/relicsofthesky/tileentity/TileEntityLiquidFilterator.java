@@ -4,7 +4,6 @@ package sigmit.relicsofthesky.tileentity;
 
 import java.util.List;
 
-import net.minecraft.block.BlockCommandBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -18,7 +17,6 @@ import net.minecraftforge.fluids.capability.IFluidHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
-
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.item.common.ItemMesh;
 import sigmit.relicsofthesky.recipe.RecipeLiquidFilterator;

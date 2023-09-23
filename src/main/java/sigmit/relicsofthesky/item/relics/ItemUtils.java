@@ -1,6 +1,5 @@
 package sigmit.relicsofthesky.item.relics;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -12,8 +11,6 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
-import scala.annotation.meta.companionClass;
-import sigmit.relicsofthesky.RelicsOfTheSky;
 
 public class ItemUtils {
 	

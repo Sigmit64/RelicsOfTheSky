@@ -1,27 +1,20 @@
 package sigmit.relicsofthesky.client.network;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
-import net.minecraftforge.fluids.FluidTank;
-import net.minecraftforge.fluids.FluidUtil;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.fluid.FluidMap;
 import sigmit.relicsofthesky.fluid.FluidRenderUtils;
 import sigmit.relicsofthesky.network.ContainerLiquidFilterator;
-import sigmit.relicsofthesky.network.ContainerMetalPurifier;
-import sigmit.relicsofthesky.tileentity.TileEntityLiquidFilterator;
 
 @SideOnly(Side.CLIENT)
 public class GuiLiquidFilterator extends GuiContainer{

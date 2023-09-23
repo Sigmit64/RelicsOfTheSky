@@ -1,10 +1,7 @@
 package sigmit.relicsofthesky.item.common;
 
-import java.util.logging.Level;
-
 import net.minecraft.client.renderer.color.IItemColor;
 import net.minecraft.item.ItemStack;
-import sigmit.relicsofthesky.RelicsOfTheSky;
 
 public class ItemColor implements IItemColor{
 

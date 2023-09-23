@@ -1,9 +1,7 @@
 package sigmit.relicsofthesky.tileentity;
 
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.block.BlockRegistryHandler;
 

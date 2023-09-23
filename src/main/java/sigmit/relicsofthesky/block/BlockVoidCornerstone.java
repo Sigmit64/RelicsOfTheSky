@@ -2,16 +2,13 @@ package sigmit.relicsofthesky.block;
 
 import java.util.List;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumBlockRenderType;
-import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.item.relics.ItemUtils;

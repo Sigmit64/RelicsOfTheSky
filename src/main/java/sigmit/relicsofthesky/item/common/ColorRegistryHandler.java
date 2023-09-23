@@ -4,7 +4,6 @@ import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 
 @EventBusSubscriber

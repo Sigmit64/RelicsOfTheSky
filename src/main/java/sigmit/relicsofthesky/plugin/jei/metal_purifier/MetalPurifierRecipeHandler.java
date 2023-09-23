@@ -2,10 +2,7 @@ package sigmit.relicsofthesky.plugin.jei.metal_purifier;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
-
-import com.google.common.collect.Lists;
 
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.recipe.IStackHelper;

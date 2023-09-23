@@ -1,21 +1,14 @@
 package sigmit.relicsofthesky.item.relics;
 
 import net.minecraft.block.IGrowable;
-import net.minecraftforge.common.util.Constants;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemDye;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import sigmit.relicsofthesky.RelicsOfTheSky;
 
 public class ItemWandOfNature extends ItemBaseRefill{
 	public ItemWandOfNature() {

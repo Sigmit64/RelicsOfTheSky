@@ -3,7 +3,6 @@ package sigmit.relicsofthesky.recipe;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
-import scala.annotation.meta.companionClass;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 
 public class OreDictRegistry {

@@ -1,16 +1,11 @@
 package sigmit.relicsofthesky.block;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockLiquid;
-import net.minecraft.block.material.Material;
-import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.event.RegistryEvent.Register;
-import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
-import sigmit.relicsofthesky.fluid.FluidRegistryHandler;
 import sigmit.relicsofthesky.tileentity.TileEntityEnergyStorage;
 import sigmit.relicsofthesky.tileentity.TileEntityLavaGenerator;
 import sigmit.relicsofthesky.tileentity.TileEntityLiquidFilterator;

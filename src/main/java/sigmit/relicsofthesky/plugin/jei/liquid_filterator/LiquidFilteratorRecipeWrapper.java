@@ -1,20 +1,14 @@
 package sigmit.relicsofthesky.plugin.jei.liquid_filterator;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import com.google.common.collect.Lists;
 
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
-import sigmit.relicsofthesky.RelicsOfTheSky;
-import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 import sigmit.relicsofthesky.item.relics.ItemUtils.ItemStackChance;
 
 public class LiquidFilteratorRecipeWrapper implements IRecipeWrapper{

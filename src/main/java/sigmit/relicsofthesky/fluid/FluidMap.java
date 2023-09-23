@@ -2,10 +2,8 @@ package sigmit.relicsofthesky.fluid;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 import net.minecraftforge.fluids.Fluid;
-import net.minecraftforge.fluids.FluidStack;
 
 public class FluidMap {
 	public static Map<Fluid, Integer> map = new HashMap<Fluid,Integer>();

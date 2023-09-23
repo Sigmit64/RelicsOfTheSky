@@ -11,7 +11,6 @@ import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.gui.ITooltipCallback;
 import mezz.jei.api.ingredients.IIngredients;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.IntIdentityHashBiMap;
 import net.minecraft.util.ResourceLocation;
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.block.BlockRegistryHandler;

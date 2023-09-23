@@ -1,7 +1,5 @@
 package sigmit.relicsofthesky.recipe;
 
-import net.minecraftforge.advancements.critereon.OredictItemPredicate;
-
 public class OreDictItem {
 	public String name;
 	public int amount;

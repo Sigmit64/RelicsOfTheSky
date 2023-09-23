@@ -5,9 +5,7 @@ import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.IModRegistry;
-import mezz.jei.api.ingredients.IIngredientRegistry;
 import mezz.jei.api.recipe.IRecipeCategoryRegistration;
-
 import net.minecraft.item.ItemStack;
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.block.BlockRegistryHandler;

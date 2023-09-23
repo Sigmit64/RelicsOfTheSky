@@ -1,7 +1,6 @@
 package sigmit.relicsofthesky.recipe;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import net.minecraft.block.Block;

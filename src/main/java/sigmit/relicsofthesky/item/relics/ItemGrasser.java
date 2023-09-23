@@ -2,14 +2,11 @@ package sigmit.relicsofthesky.item.relics;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import sigmit.relicsofthesky.RelicsOfTheSky;
 
 public class ItemGrasser extends ItemBaseRelics{
 	public ItemGrasser() {

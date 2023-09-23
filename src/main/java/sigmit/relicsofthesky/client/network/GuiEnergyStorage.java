@@ -4,17 +4,11 @@ import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.inventory.Container;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraftforge.fluids.Fluid;
-import net.minecraftforge.fluids.FluidStack;
 import sigmit.relicsofthesky.RelicsOfTheSky;
-import sigmit.relicsofthesky.fluid.FluidMap;
-import sigmit.relicsofthesky.fluid.FluidRenderUtils;
 import sigmit.relicsofthesky.network.ContainerEnergyStorage;
-import sigmit.relicsofthesky.network.ContainerLiquidFilterator;
 
 public class GuiEnergyStorage extends GuiContainer{
 	

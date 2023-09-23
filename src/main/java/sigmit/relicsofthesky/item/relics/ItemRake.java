@@ -3,8 +3,6 @@ package sigmit.relicsofthesky.item.relics;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.common.collect.Lists;
-
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Blocks;
@@ -13,7 +11,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import scala.actors.threadpool.Arrays;
 import sigmit.relicsofthesky.item.relics.ItemUtils.ItemStackChance;
 
 public class ItemRake extends ItemBaseRefill{

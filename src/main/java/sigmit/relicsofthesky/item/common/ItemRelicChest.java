@@ -1,17 +1,12 @@
 package sigmit.relicsofthesky.item.common;
 
-import java.util.List;
 import java.util.Set;
 
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.EnumActionResult;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.capability.CapabilityRegistryHandler;

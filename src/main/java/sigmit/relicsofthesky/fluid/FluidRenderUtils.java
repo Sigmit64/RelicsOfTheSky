@@ -12,11 +12,18 @@ import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraftforge.fluids.FluidStack;
 
 public class FluidRenderUtils {
+	
+	
+	/**
+	 * The below 8 Methods and comments are taken from Furnace OverHaul with full attribution.
+	 * No alterations has been made to make this code function properly with my environment.
+	 * 
+	 */
 	/**
 	 * The below 8 Methods are taken from Tinker's Construct with full attribution.
 	 * <p>
 	 * Disclaimer:
-	 * Some alterations has been made to make this code function properly with my enviroment.
+	 * Some alterations has been made to make this code function properly with my environment.
 	 */
 	public static void renderTiledFluid(int x, int y, int width, int height, float depth, FluidStack fluidStack) {
 		if (fluidStack == null) return;

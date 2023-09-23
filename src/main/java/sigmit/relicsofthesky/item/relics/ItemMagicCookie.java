@@ -8,14 +8,11 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.EnumHand;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.capability.CapabilityRegistryHandler;
 import sigmit.relicsofthesky.capability.PlayerItemUsed;
-import sigmit.relicsofthesky.capability.PlayerItemUsedProvider;
 
 
 public class ItemMagicCookie extends ItemFood{

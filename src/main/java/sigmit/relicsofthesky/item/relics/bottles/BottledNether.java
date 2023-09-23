@@ -8,7 +8,6 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
-import net.minecraftforge.common.util.Constants;
 import sigmit.relicsofthesky.entity.EntityBottledNether;
 import sigmit.relicsofthesky.item.relics.ItemBaseRelics;
 

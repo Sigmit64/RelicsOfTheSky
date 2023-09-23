@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -13,7 +12,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
-import scala.annotation.meta.companionClass;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 import sigmit.relicsofthesky.item.relics.ItemUtils;
 import sigmit.relicsofthesky.item.relics.ItemUtils.ItemStackChance;

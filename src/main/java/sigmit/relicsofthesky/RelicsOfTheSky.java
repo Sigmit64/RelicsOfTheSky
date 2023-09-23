@@ -1,9 +1,9 @@
 package sigmit.relicsofthesky;
 
+import org.apache.logging.log4j.Logger;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.RenderSnowball;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
@@ -14,15 +14,10 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import sigmit.relicsofthesky.capability.CapabilityRegistryHandler;
 import sigmit.relicsofthesky.entity.EntityBottledNether;
-import sigmit.relicsofthesky.fluid.FluidRegistryHandler;
-import sigmit.relicsofthesky.item.common.RelicsList;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 import sigmit.relicsofthesky.network.NetworkRegistryHandler;
 import sigmit.relicsofthesky.recipe.OreDictRegistry;
 import sigmit.relicsofthesky.recipe.RecipeManager;
-import sigmit.relicsofthesky.render.RenderRegistryHandler;
-
-import org.apache.logging.log4j.Logger;
 
 @Mod(modid = RelicsOfTheSky.MODID, name = RelicsOfTheSky.NAME, version = RelicsOfTheSky.VERSION)
 public class RelicsOfTheSky

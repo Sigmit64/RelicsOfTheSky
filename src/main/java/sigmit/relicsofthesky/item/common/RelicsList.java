@@ -1,19 +1,13 @@
 package sigmit.relicsofthesky.item.common;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-import com.google.common.collect.Lists;
-
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 
 public class RelicsList {
@@ -47,18 +41,22 @@ public class RelicsList {
 		addRelicsToList(
 				ItemRegistryHandler.ITEM_BOTTLED_NETHER,
 				ItemRegistryHandler.ITEM_BRUSHER,
+				ItemRegistryHandler.ITEM_ENERGY_STORAGE,
 				ItemRegistryHandler.ITEM_GRASSER,
 				ItemRegistryHandler.ITEM_LAVA_GENERATOR,
 				ItemRegistryHandler.ITEM_LIGHTER,
 				ItemRegistryHandler.ITEM_LIQUID_FILTERATOR,
+				ItemRegistryHandler.ITEM_MAGIC_COOKIE,
 				ItemRegistryHandler.ITEM_METAL_PURIFIER,
-				//ItemRegistryHandler.ITEM_RAKE,
+				ItemRegistryHandler.ITEM_RAKE,
 				ItemRegistryHandler.ITEM_REVERSE_WRENCH,
 				ItemRegistryHandler.ITEM_SAND_OF_INFINITY,
 				ItemRegistryHandler.ITEM_SAND_OF_TIME,
 				ItemRegistryHandler.ITEM_STEEL_HAMMER,
 				ItemRegistryHandler.ITEM_WAND_OF_NATURE,
-				ItemRegistryHandler.ITEM_WATER_GENERATOR
+				ItemRegistryHandler.ITEM_WATER_GENERATOR,
+				ItemRegistryHandler.ITEM_VOID_CORNERSTONE
+				
 				
 				);
 	}

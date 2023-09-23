@@ -6,8 +6,6 @@ import java.util.Map;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
-import net.minecraftforge.oredict.OreIngredient;
-import sigmit.relicsofthesky.RelicsOfTheSky;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 
 public class RecipeMetalPurifier {
