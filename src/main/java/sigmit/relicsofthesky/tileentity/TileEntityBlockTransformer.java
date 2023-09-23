@@ -41,9 +41,10 @@ public abstract class TileEntityBlockTransformer extends TileEntity implements I
 		
 		
 		BlockTransformerMap map=getBlockTransformerMap();
-		if(!block.equals(map.getBlock(block))) {
+		IBlockState newBlockState=map.getBlock(block);
+		if(!block.equals(newBlockState)) {
 			world.playEvent(2001, pos.up(), Block.getStateId(block));
-			world.setBlockState(this.pos.up(), map.getBlock(block));
+			world.setBlockState(pos.up(), newBlockState);
 			world.playEvent(2003, pos.up(), 0);
 			
 		}

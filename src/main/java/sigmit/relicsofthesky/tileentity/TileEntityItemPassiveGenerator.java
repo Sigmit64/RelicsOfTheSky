@@ -25,8 +25,9 @@ public abstract class TileEntityItemPassiveGenerator extends TileEntity implemen
 	public void update()
 	{
 		if(world.isRemote) return;
-
+		
 		tickCount++;
+		insertToTop();
 		
 		if(tickCount >= getTick())
 		{
@@ -44,7 +45,7 @@ public abstract class TileEntityItemPassiveGenerator extends TileEntity implemen
 			
 			
 			
-			insertToTop();
+			
 		}
 	}
 	
