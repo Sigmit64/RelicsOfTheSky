@@ -14,6 +14,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import sigmit.relicsofthesky.capability.CapabilityRegistryHandler;
 import sigmit.relicsofthesky.entity.EntityBottledNether;
+import sigmit.relicsofthesky.fluid.FluidRegistryHandler;
 import sigmit.relicsofthesky.item.relics.ItemRegistryHandler;
 import sigmit.relicsofthesky.network.NetworkRegistryHandler;
 import sigmit.relicsofthesky.recipe.OreDictRegistry;
@@ -39,7 +40,7 @@ public class RelicsOfTheSky
     	NetworkRegistryHandler.register();
         RecipeManager.registerRecipes();
         CapabilityRegistryHandler.register();
-        //FluidRegistryHandler.register();
+        FluidRegistryHandler.register();
     }
     
     @EventHandler
@@ -48,7 +49,7 @@ public class RelicsOfTheSky
     {
     	
     	RenderingRegistry.registerEntityRenderingHandler(EntityBottledNether.class,manager->new RenderSnowball<>(manager,ItemRegistryHandler.ITEM_BOTTLED_NETHER,Minecraft.getMinecraft().getRenderItem()));
-		
+		FluidRegistryHandler.registerModel();
     }
 
     @EventHandler
