@@ -11,6 +11,8 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
+import sigmit.relicsofthesky.RelicsOfTheSky;
+import sigmit.relicsofthesky.item.common.ItemMeta;
 
 public class ItemUtils {
 	
@@ -25,10 +27,16 @@ public class ItemUtils {
 	}
 	
 	public static void addInfo(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn, String name) {
-		String text=I18n.format("tooltip.relicsofthesky."+name);
+		String key="tooltip.relicsofthesky."+name;
+		if(stack.getItem() instanceof ItemMeta) {
+			key=key+"."+(stack.getMetadata());
+		}
+		String text=I18n.format(key);
+		
 		
 		if(!text.startsWith("tooltip")) {
-			
+			RelicsOfTheSky.logger.info(text);
+			text.replaceFirst("Format error: ", "");
 
 			String[] addList=text.split("~");
 			

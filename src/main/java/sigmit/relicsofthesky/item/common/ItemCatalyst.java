@@ -2,7 +2,7 @@ package sigmit.relicsofthesky.item.common;
 
 public class ItemCatalyst extends ItemMeta{
 	public ItemCatalyst() {
-		super("catalyst",2,true);
+		super("catalyst",3,true);
 		
 	}
 	
@@ -17,6 +17,8 @@ public class ItemCatalyst extends ItemMeta{
 			return 50;
 		case 1:
 			return 30;
+		case 2:
+			return 70;
 		default:
 			return 0;
 		}

@@ -1,9 +1,9 @@
 item.relicsofthesky.grasser.name=Grasser
 tooltip.relicsofthesky.item.relicsofthesky.grasser=Turn dirts into grass.
 item.relicsofthesky.wand_of_the_nature.name=Wand of the Nature
-tooltip.relicsofthesky.item.relicsofthesky.wand_of_the_nature=@20 per use/2000 max。~Right click to apply bonemeal.
+tooltip.relicsofthesky.item.relicsofthesky.wand_of_the_nature=@20 per use/2000 max~Right click to apply bonemeal.
 item.relicsofthesky.lighter.name=Lighter
-tooltip.relicsofthesky.item.relicsofthesky.lighter=@50 per use/1000 max~Grants a chance to melt a block into lava when right clicking it.~Cobblestone 2%~Stone 3%~Netherrack 20%~Magma Block 100%
+tooltip.relicsofthesky.item.relicsofthesky.lighter=@50 per use/1000 max~Grants a chance to melt a block into lava when right clicking it.~Cobblestone 0.02~Stone 0.03~Netherrack 0.2~Magma Block 1
 item.relicsofthesky.relic_chest.name=Relic Chest
 tooltip.relicsofthesky.item.relicsofthesky.relic_chest=Pick one from three relics.
 item.relicsofthesky.reverse_wrench.name=Reverse Wrench
@@ -18,6 +18,10 @@ item.relicsofthesky.magic_cookie.name=Magic Cookie
 tooltip.relicsofthesky.item.relicsofthesky.magic_cookie=@Single Use.~Permanently increase the amount of relics in a relic chest.
 item.relicsofthesky.bottled_nether.name=Bottled Nether
 tooltip.relicsofthesky.item.relicsofthesky.bottled_nether=@Single Use.~Throw a bottle which transforms blocks into lava or netherrack on crack.
+item.relicsofthesky.mercury_lamp.name=Mercury Lamp
+tooltip.relicsofthesky.item.relicsofthesky.mercury_lamp=@50 per sec when being active/3000 max~Right click to switch the status~While active, spawns hostile mobs 4-12 blocks away from you.
+
+fluid.rainbow=Liquid rainbow
 
 item.relicsofthesky.mesh.0.name=Magnetic Filter
 item.relicsofthesky.mesh.1.name=Steel Filter
@@ -34,7 +38,9 @@ item.relicsofthesky.nugget.3.name=Tin Nugget
 item.relicsofthesky.nugget.4.name=Lead Nugget
 item.relicsofthesky.nugget.5.name=Steel Nugget
 item.relicsofthesky.catalyst.0.name=Void Catalyst
+tooltip.relicsofthesky.item.relicsofthesky.catalyst.0=0.5 chance of not being consumed when used as a catalyst
 item.relicsofthesky.catalyst.1.name=Metal Catalyst
+tooltip.relicsofthesky.item.relicsofthesky.catalyst.1=0.3 chance of not being consumed when used as a catalyst
 
 
 tile.relicsofthesky.metal_purifier.name=Metal TransmuTable
@@ -55,6 +61,9 @@ tile.relicsofthesky.void_cornerstone.name=Void Cornerstone
 tooltip.relicsofthesky.tile.relicsofthesky.void_cornerstone=Stone placed above it is transformed into redstone ore. When nothing is above it, a void catalyst have a chance to summon on it.
 tile.relicsofthesky.energy_storage.name=Redstone Battery
 tooltip.relicsofthesky.tile.relicsofthesky.energy_storage=Store 8000RF. Produce 10RF/t when placed above a redstone block.
+
+jei.relicsofthesky.metal_purifier.title=Metal TransmuTable
+jei.relicsofthesky.liquid_filterator.title=Liquid Filterator
 
 text.relicsofthesky.choose_your_reward=Choose your reward
 text.relicsofthesky.magic_cookie.used=You have already used the magic cookie!

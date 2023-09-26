@@ -3,7 +3,7 @@ tooltip.relicsofthesky.item.relicsofthesky.grasser=右键泥土，砂土或灰�
 item.relicsofthesky.wand_of_the_nature.name=自然法杖
 tooltip.relicsofthesky.item.relicsofthesky.wand_of_the_nature=@每次使用20/能量上限2000。~右键加速树苗或作物生长（等同于骨粉的效果）。
 item.relicsofthesky.lighter.name=打火机
-tooltip.relicsofthesky.item.relicsofthesky.lighter=@每次使用50/能量上限1000~右键方块有一定概率将其转化为熔岩。~圆石 2%~石头 3%~地狱岩 20%~岩浆块 100%
+tooltip.relicsofthesky.item.relicsofthesky.lighter=@每次使用50/能量上限1000~右键方块有一定概率将其转化为熔岩。~圆石 0.02~石头 0.03~地狱岩 0.2~岩浆块 1
 item.relicsofthesky.relic_chest.name=遗物箱
 tooltip.relicsofthesky.item.relicsofthesky.relic_chest=打开箱子可以在三个遗物中选择一个。
 item.relicsofthesky.reverse_wrench.name=反转扳手
@@ -18,6 +18,10 @@ item.relicsofthesky.magic_cookie.name=魔法曲奇
 tooltip.relicsofthesky.item.relicsofthesky.magic_cookie=@一次性。~使用后永久增加每个遗物箱中的遗物数量。
 item.relicsofthesky.bottled_nether.name=瓶装炼狱
 tooltip.relicsofthesky.item.relicsofthesky.bottled_nether=@一次性。~丢出一个投掷物，有概率将落地位置周围的方块转化为熔岩/地狱岩。~硬度越低的方块越容易被转化。
+item.relicsofthesky.mercury_lamp.name=水银提灯
+tooltip.relicsofthesky.item.relicsofthesky.mercury_lamp=@开启时50每秒/能量上限3000~右键以切换状态~开启状态时，自身周围4-12格会不断生成怪物。
+
+fluid.rainbow=液态彩虹
 
 item.relicsofthesky.mesh.0.name=磁化滤网
 item.relicsofthesky.mesh.1.name=钢制滤网
@@ -34,7 +38,9 @@ item.relicsofthesky.nugget.3.name=锡粒
 item.relicsofthesky.nugget.4.name=铅粒
 item.relicsofthesky.nugget.5.name=钢粒
 item.relicsofthesky.catalyst.0.name=虚空催化剂
+tooltip.relicsofthesky.item.relicsofthesky.catalyst.0=作为催化剂使用时，有0.5的概率不被消耗
 item.relicsofthesky.catalyst.1.name=金属催化剂
+tooltip.relicsofthesky.item.relicsofthesky.catalyst.1=作为催化剂使用时，有0.3的概率不被消耗
 
 
 tile.relicsofthesky.metal_purifier.name=金属转化桌
@@ -55,6 +61,9 @@ tile.relicsofthesky.void_cornerstone.name=虚空基石
 tooltip.relicsofthesky.tile.relicsofthesky.void_cornerstone=将石头放置在方块上方可将其转化为红石矿石。当虚空基石上方没有方块时，每秒有一定概率产出一个虚空催化剂。
 tile.relicsofthesky.energy_storage.name=红石蓄电池
 tooltip.relicsofthesky.tile.relicsofthesky.energy_storage=可以存储8000RF电量。当红石蓄电池下方放置红石块时，自动产出10RF/t。
+
+jei.relicsofthesky.metal_purifier.title=金属转化桌
+jei.relicsofthesky.liquid_filterator.title=流体过滤器
 
 text.relicsofthesky.choose_your_reward=选择你的奖励！
 text.relicsofthesky.magic_cookie.used=你已经使用过魔法曲奇了！

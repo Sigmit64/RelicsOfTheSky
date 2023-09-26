@@ -29,6 +29,7 @@ public class ItemRegistryHandler {
 	public static final ItemBrusher ITEM_BRUSHER = new ItemBrusher();
 	public static final ItemSteelHammer ITEM_STEEL_HAMMER = new ItemSteelHammer();
 	public static final ItemRake ITEM_RAKE = new ItemRake();
+	public static final ItemMercuryLamp ITEM_MERCURY_LAMP = new ItemMercuryLamp();
 	
 	public static final BottledNether ITEM_BOTTLED_NETHER = new BottledNether();
 	
@@ -68,6 +69,7 @@ public class ItemRegistryHandler {
 			ITEM_STEEL_HAMMER,
 			ITEM_RAKE,
 			ITEM_BOTTLED_NETHER,
+			ITEM_MERCURY_LAMP,
 			
 			//ITEM_MERGER,
 			ITEM_METAL_PURIFIER,
@@ -138,6 +140,7 @@ public class ItemRegistryHandler {
 			ITEM_STEEL_HAMMER,
 			ITEM_RAKE,
 			ITEM_BOTTLED_NETHER,
+			ITEM_MERCURY_LAMP,
 			
 			//ITEM_MERGER,
 			ITEM_METAL_PURIFIER,

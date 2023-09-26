@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -44,6 +45,21 @@ public class RecipeLiquidFilterator {
 				new ItemStackChance(Items.IRON_NUGGET,1, 20),
 				new ItemStackChance(new ItemStack(ItemRegistryHandler.ITEM_NUGGET,1,4),40),
 				new ItemStackChance(Items.GOLD_NUGGET,1, 5)
+				);
+		addRecipe(FluidRegistry.LAVA, 1000, new ItemStack(ItemRegistryHandler.ITEM_MESH,1,1), 1,
+				new ItemStackChance(Items.IRON_NUGGET,1, 30),
+				new ItemStackChance(new ItemStack(ItemRegistryHandler.ITEM_NUGGET,1,4),40),
+				new ItemStackChance(Items.GOLD_NUGGET,1, 5)
+				);
+		addRecipe(FluidRegistry.WATER,1000,ItemStack.EMPTY,10,
+				new ItemStackChance(new ItemStack(Blocks.GRAVEL),5),
+				new ItemStackChance(new ItemStack(Blocks.SAND),5),
+				new ItemStackChance(new ItemStack(Items.CLAY_BALL),10)
+				);
+		addRecipe(FluidRegistry.WATER,1000,new ItemStack(ItemRegistryHandler.ITEM_MESH,1,1),2,
+				new ItemStackChance(new ItemStack(Blocks.GRAVEL),5),
+				new ItemStackChance(new ItemStack(Blocks.SAND),5),
+				new ItemStackChance(new ItemStack(Items.CLAY_BALL),10)
 				);
 	}
 	
